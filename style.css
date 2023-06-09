@@ -1,0 +1,408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 110vh 125vh 110vh;
+    padding: 0px 70px;
+}
+
+/* //////////////   LOGO   ///////////////// */
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    padding: 72px 0px 180px 0px;
+    
+}
+
+#logo h1 {
+    font-weight: 100;
+    font-size: 35px;
+    color: white;
+}
+
+.logo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 a {
+    width: 100vw;
+    padding: 20px 0px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+#a1:hover {
+    background-color: #607d8b;
+}
+
+#a2:hover {
+    background-color: #009688;
+}
+
+#a3:hover {
+    background-color: #616161;
+}
+
+#a4:hover {
+    background-color: #875858;
+}
+
+/*   //////////////  ABOUT   ///////// */
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #607d8b;
+    padding: 64px 0px;
+}
+
+#about h1 {
+    font-weight: 100;
+    font-size: 35px;
+    color: white;
+}
+
+#about img {
+    width: 45%;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+
+#about p {
+    color: white;
+    line-height: 25px;
+    padding: 20px 50px;
+    font-size: 15px;
+}
+
+/*  //////////   WORK   ///////////// */
+#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 60px 0px;
+}
+
+.work1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 30px 0px;
+    /* grid-template-rows: auto auto auto; */
+}
+
+.work1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#work h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#work p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* ///////////   RESUME  ///////////// */
+#resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3f51b5;
+    padding: 50px 30px 200px 30px;
+}
+
+#resume h1 {
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+}
+
+#resume p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+#table th {
+    padding: 8px;
+    text-align: left;
+    background-color: #3f51b5;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#table td {
+    padding: 8px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#table tr:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+#table tr:nth-child(odd) {
+    color: white;
+}
+
+/* ///////////  SWING  ///////////// */
+#swing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #616161;
+    padding: 10px 0px 200px 0px;
+}
+
+.swing1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#swing h1 {
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+}
+
+#swing p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: white;
+}
+
+/* ///////////  CONTACT  ///////////// */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #009688;
+    padding: 60px 0px 150px 30px;
+}
+
+#contact h1 {
+    font-weight: 100;
+    font-size: 35px;
+    color: white;
+}
+
+#contact p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.contact1 {
+    border: 2px black solid;
+    width: 80%;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.contact1 p {
+    color: black;
+}
+
+.contact1 input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: .5px rgb(73, 71, 71) solid;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.contact1 button {
+    background-color: #009688;
+    color: white;
+    padding: 7px 14px;
+    border: 0px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    width: fit-content;
+    align-self: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* MEDIA QUERY ..///////////////////// */
+@media screen and (max-width:900px) {
+    .main {
+        padding: 0px;
+        grid-template-rows: 100vh 100vh 100vh;
+        transition: .3s;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
+
+    .main-items {
+        width:100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+    #logo,
+    #about {
+        height: fit-content;
+    }
+
+    #work {
+        height: 140vh;
+    }
+
+    #swing,
+    #contact {
+        height: 100vh;
+    }
+
+
+
+    #logo h1,
+    #about h1,
+    #work h1,
+    #resume h1,
+    #swing h1,
+    #contact h1 {
+        font-size: 50px;
+    }
+
+    #logo p,
+    #about p,
+    #work p,
+    #resume p,
+    #contact p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .logo1 a {
+        font-size: 30px;
+    }   
+
+    .logo1 {
+        margin-top: 100px;
+    }
+
+    .work1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img3 {
+        display: none;
+    }
+
+    #img1,
+    #img2 {
+        box-shadow: 0px 0px 5px black;
+    }
+
+    #resume {
+        padding: 50px;
+    }
+
+    #resume h1 {
+        margin: 10px 0px;
+    }
+
+    #table {
+        margin: 20px 0px;
+    }
+
+    #table th {
+        padding: 10px;
+        font-size: 29px;
+    }
+
+    #table td {
+        padding: 20px 12px;
+        font-size: 25px;
+    }
+
+    #swing {
+        padding: 0px;
+    }
+
+    #swing h1 {
+        font-size: 60px;
+    }
+
+    #swing p {
+        margin: 20px 0px;
+        font-size: 27px;
+    }
+
+    #contact {
+        padding: 70px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact1 input {
+        padding: 17px;
+        font-size: 20px;
+    }
+
+    .contact1 {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .contact1 button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
